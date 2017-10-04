@@ -6,7 +6,7 @@ var days = 4;
 
 happyHolidaysTo(name);
 happyHolidaysTo(name, holiday);
-function holidayCountdown(days);
+holidayCountdown(days);
 
 
 function happyHolidays(){
