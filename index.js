@@ -1,8 +1,8 @@
 // write your code below!
-var string = hotelHello();
+var string = happyHolidays();
 var name = "Joe";
 
-function hotelHello(){
+function happyHolidays(){
   return "Happy holidays!";
 }
 
