@@ -2,6 +2,12 @@
 var string = happyHolidays();
 var name = "Joe";
 var holiday = "July4th"
+var days = 4;
+
+happyHolidaysTo(name);
+happyHolidaysTo(name, holiday);
+function holidayCountdown(days);
+
 
 function happyHolidays(){
   return "Happy holidays!";
