@@ -3,6 +3,7 @@ var string = happyHolidays();
 var name = "Joe";
 var holiday = "July4th"
 var days = 4;
+console.log(name);
 
 happyHolidaysTo(name);
 happyHolidaysTo(name, holiday);
@@ -14,11 +15,11 @@ function happyHolidays(){
 }
 
 function happyHolidaysTo(name){
-  return 'Happy holidays' + name + '!';
+  return 'Happy holidays ' + name + '!';
 }
 
 function happyHolidaysTo(name, holiday){
-  return 'Happy' + holiday + ',' + name +'!';
+  return 'Happy ' + holiday + ',' + name +'!';
 }
 
 function holidayCountdown(days){
